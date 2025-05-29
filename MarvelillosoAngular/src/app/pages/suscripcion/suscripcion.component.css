@@ -1,0 +1,89 @@
+.container {
+    padding: 0 15px;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #333;
+}
+
+h2 {
+    color: #a62c2b;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.card {
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    background: rgba(73, 73, 73, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(73, 73, 73, 0.3);
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #bebebe;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #00a2ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #007cc1;
+}
+
+.cancel-button {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.50);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: rgba(255, 0, 0, 0.80);
+}
+
+.section-header {
+    border-bottom: 2px solid #a62c2b;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.section-header h3 {
+    color: #a62c2b;
+    font-size: 18px;
+}

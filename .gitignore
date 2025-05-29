@@ -1,0 +1,11 @@
+# Angular
+**/node_modules/
+**/dist/
+**/.angular/cache/
+
+# Visual Studio Code
+.vscode/
+
+# .NET
+**/bin/
+**/obj/

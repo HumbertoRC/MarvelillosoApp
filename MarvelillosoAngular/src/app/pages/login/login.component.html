@@ -1,0 +1,39 @@
+<div class="login-page">
+    <div class="login-container">
+        <div class="login-card">
+            <h2>Iniciar sesión</h2>
+            <form (ngSubmit)="onLogin()" #loginForm="ngForm" novalidate>
+                <div class="input-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" [(ngModel)]="email" placeholder="Ingresa tu correo"
+                        required email #emailInput="ngModel" />
+                    <div class="error" *ngIf="emailInput.invalid && emailInput.touched">
+                        Por favor ingresa un correo válido.
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" [(ngModel)]="password"
+                        placeholder="Ingresa tu contraseña" #passwordInput="ngModel" />
+                    <div class="error" *ngIf="passwordInput.invalid && passwordInput.touched">
+                        La contraseña debe tener al menos 6 caracteres.
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-login" [disabled]="loginForm.invalid">
+                    Iniciar Sesión
+                </button>
+            </form>
+
+            <div *ngIf="errorMessage" class="message error">{{ errorMessage }}</div>
+            <div *ngIf="successMessage" class="message success">{{ successMessage }}</div>
+
+            <div class="links">
+                <a href="#">¿Olvidaste tu contraseña?</a><br />
+                <a [routerLink]="['/register']">¿No tienes una cuenta? Regístrate</a><br />
+                <a href="/ayuda" target="_blank" rel="noopener noreferrer">Ayuda</a>
+            </div>
+        </div>
+    </div>
+</div>

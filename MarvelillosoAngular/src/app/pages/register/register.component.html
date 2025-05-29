@@ -1,0 +1,53 @@
+<div class="register-page">
+  <div class="register-container">
+    <div class="register-card">
+      <h2>Crear cuenta</h2>
+      <form (ngSubmit)="onRegister()" #registerForm="ngForm">
+        <div class="input-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" [(ngModel)]="name" placeholder="Ingresa tu nombre" required />
+        </div>
+        <div class="input-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" [(ngModel)]="email" placeholder="Ingresa tu correo" required />
+        </div>
+        <div class="input-group password-group">
+          <label for="password">Contraseña</label>
+          <div class="password-wrapper">
+            <input [type]="showPassword ? 'text' : 'password'" id="password" name="password" [(ngModel)]="password"
+              placeholder="Ingresa tu contraseña" required />
+            <button type="button" class="toggle-password" (click)="togglePasswordVisibility()"
+              aria-label="Mostrar/Ocultar contraseña">
+              <svg *ngIf="!showPassword" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+              <svg *ngIf="showPassword" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17.94 17.94A10.94 10.94 0 0 1 12 20C5 20 1 12 1 12a21.76 21.76 0 0 1 5.17-6.11" />
+                <path d="M22.54 12.84A21.76 21.76 0 0 0 18.83 7.89" />
+                <line x1="1" y1="1" x2="23" y2="23" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-register" [disabled]="registerForm.invalid">Registrarse</button>
+
+      </form>
+
+      <div class="message" *ngIf="successMessage" [ngClass]="'success'">
+        {{ successMessage }}
+      </div>
+      <div class="message" *ngIf="errorMessage" [ngClass]="'error'">
+        {{ errorMessage }}
+      </div>
+
+      <div class="links">
+        <a [routerLink]="['/']">¿Ya tienes una cuenta? Inicia sesión</a>
+        <a [routerLink]="['/ayuda']" target="_blank">Ayuda</a>
+      </div>
+    </div>
+  </div>
+</div>

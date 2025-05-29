@@ -1,0 +1,77 @@
+{
+    "movies": [
+      {
+        "id": 21,
+        "title": "Black Widow",
+        "image": "assets/images/movies/blackwidow.webp",
+        "alt": "Black Widow"
+      },
+      {
+        "id": 22,
+        "title": "Shang-Chi",
+        "image": "assets/images/movies/shangchi.webp",
+        "alt": "Shang-Chi"
+      },
+      {
+        "id": 23,
+        "title": "Eternals",
+        "image": "assets/images/movies/eternals.webp",
+        "alt": "Eternals"
+      },
+      {
+        "id": 24,
+        "title": "Spider-Man: No Way Home",
+        "image": "assets/images/movies/nowayhome.webp",
+        "alt": "Spider-Man: No Way Home"
+      },
+      {
+        "id":25,
+        "title": "Doctor Strange en el multiverso de la locura",
+        "image": "assets/images/movies/multiversodelocura.webp",
+        "alt": "Doctor Strange en el multiverso de la locura"
+      },
+      {
+        "id": 26,
+        "title": "Thor Love and Thunder",
+        "image": "assets/images/movies/loveandthunder.webp",
+        "alt": "Thor Love and Thunder"
+      },
+      {
+        "id": 27,
+        "title": "Black Panther: Wakanda Forever",
+        "image": "assets/images/movies/wakandaforever.webp",
+        "alt": "Black Panther: Wakanda Forever"
+      },
+      {
+        "id": 28,
+        "title": "Ant-Man & Wasp Quantumania",
+        "image": "assets/images/movies/antman3.webp",
+        "alt": "Ant-Man & Wasp Quantumania"
+      },
+      {
+        "id": 29,
+        "title": "Guardianes de la galaxia Vol.3",
+        "image": "assets/images/movies/guardianes3.webp",
+        "alt": "Guardianes de la galaxia Vol.3"
+      },
+      {
+        "id": 210,
+        "title": "The Marvels",
+        "image": "assets/images/movies/marvels.webp",
+        "alt": "The Marvels"
+      },
+      {
+        "id": 211,
+        "title": "Deadpool & Wolverine",
+        "image": "assets/images/movies/DeadpoolWolverine.webp",
+        "alt": "Deadpool & Wolverine"
+      },
+      {
+        "id": 212,
+        "title": "Capitan America un nuevo mundo",
+        "image": "assets/images/movies/Nuevo mundo.webp",
+        "alt": "Capitan America un nuevo mundo"
+      }
+    ]
+  }
+  
