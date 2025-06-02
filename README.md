@@ -67,49 +67,52 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Development server
 
-To start a local development server, run:
+## Servidor de desarrollo
+
+Para iniciar un servidor de desarrollo local, ejecuta:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Una vez que el servidor esté en funcionamiento, abre tu navegador y navega a http://localhost:4200/.
+La aplicación se recargará automáticamente cada vez que modifiques alguno de los archivos fuente.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Generación de código (Code scaffolding)
+Angular CLI incluye potentes herramientas para la generación automática de código.
+Para generar un nuevo componente, ejecuta:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+Para ver una lista completa de esquemas disponibles (como components, directives o pipes), ejecuta:
 ```bash
 ng generate --help
 ```
 
 ## Building
 
-To build the project run:
+Para compilar el proyecto, ejecuta:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Esto compilará tu proyecto y almacenará los archivos generados en el directorio 
+ `dist/`. Por defecto, la compilación en modo producción optimiza tu aplicación para rendimiento y velocidad.
 
 ## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Para ejecutar pruebas unitarias con el ejecutor de pruebas [Karma](https://karma-runner.github.io) test runner, utiliza el siguiente comando:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## Ejecución de pruebas end-to-end
 
-For end-to-end (e2e) testing, run:
+Para realizar pruebas end-to-end (e2e), ejecuta:
 
 ```bash
 ng e2e
