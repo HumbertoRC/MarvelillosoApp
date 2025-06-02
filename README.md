@@ -65,8 +65,6 @@ Optimizar el codigo, implementar de una mejor manera el proyecto.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
 
-## Development server
-
 ## Servidor de desarrollo
 
 Para iniciar un servidor de desarrollo local, ejecuta:
