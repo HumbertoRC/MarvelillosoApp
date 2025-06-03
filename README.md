@@ -14,11 +14,15 @@ El objetivo de este proyecto es tener una plataforma accesible a las personas qu
 ![MockUp](https://github.com/user-attachments/assets/6dea2912-1eda-47b6-a04a-81516936a428)
 
 ## Imagenes adicionales:
-![image](https://github.com/user-attachments/assets/109648d2-1039-4dd9-b768-bf845366a9f6)
-![image](https://github.com/user-attachments/assets/280a9ca1-7273-40ed-b4b4-5a90299d95d8)
-![image](https://github.com/user-attachments/assets/a8159585-208f-4c9c-8870-0440a4d26c10)
-![image](https://github.com/user-attachments/assets/70a88e69-42d6-414d-b793-7d7b7dec60ff)
-![image](https://github.com/user-attachments/assets/c39f2d97-a712-4dfe-b462-2fbb8e7891e7)
+![movie.service.ts](https://github.com/user-attachments/assets/84709d6d-e74f-4c2d-88d0-e32c846ad91a)
+![favorite.service.ts](https://github.com/user-attachments/assets/f34f2ea1-074a-4371-95d7-25f24fe1a828)
+![login.component.ts](https://github.com/user-attachments/assets/60d64bbd-647e-4801-ac49-87c3c8362ced)
+![index.component.ts](https://github.com/user-attachments/assets/37b51620-271e-41bc-9d12-acc71b30ae67)
+![index.component.ts](https://github.com/user-attachments/assets/67f29235-aba2-4df0-a419-a4818f7cf002)
+![register.component.ts](https://github.com/user-attachments/assets/f134675c-e7d1-41d5-958d-a68c18953aae)
+![register.component.ts](https://github.com/user-attachments/assets/c3f9a548-efff-4857-9472-88d3b94c0bf0)
+
+
 
 ## Usuarios registrados:
 ![image](https://github.com/user-attachments/assets/9b35f5a2-91c3-4525-a991-c18a4679dca8)
@@ -27,10 +31,11 @@ El objetivo de este proyecto es tener una plataforma accesible a las personas qu
 ![image](https://github.com/user-attachments/assets/dab8ffe3-ec2e-4406-be29-5a7e0ebf1145)
 
 ## Pruebas: 
-![image](https://github.com/user-attachments/assets/44ad3e83-74e6-4153-9019-92eeada240a5)
+![TestCoverage](https://github.com/user-attachments/assets/3bc00912-6f88-4134-b428-734f67fd3850)
 
 ## Diagrama de la base de datos:  
-![image](https://github.com/user-attachments/assets/4783424a-6370-4efa-85e9-1159447d4a91)
+![Diagram](https://github.com/user-attachments/assets/7b22cb0f-56c5-4556-ab23-7c5191b8c2d1)
+
 
 ## Swagger:
 ![image](https://github.com/user-attachments/assets/8d1614c7-5307-4112-9406-02ca251722d4)
